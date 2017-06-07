@@ -67,9 +67,12 @@ header {
 .sidebartext {
   padding: 10px 10px 10px 10px;
   font-size: 18px;
+<<<<<<< HEAD
   border-bottom: 1px;
   border-bottom-color: grey;
   border-style: solid;
+=======
+>>>>>>> 99154da2730bef9d92aefc7e6851b14c3ec631dd
 }
 
 .sidebar {
@@ -85,7 +88,10 @@ header {
   background: #ffffff;
   float: left
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 99154da2730bef9d92aefc7e6851b14c3ec631dd
 .aboutmeh {
   font-size: 22px;
   border-bottom: 2px;
