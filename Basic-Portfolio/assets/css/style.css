@@ -1,14 +1,16 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 body {
   background-image: url(../images/concrete-texture.png);
   color: #777777;
-  margin: 0px;
-  outline: 0px;
 }
 
 a {
   text-decoration:  none;
   color: #777777;
-  float: right;
   } 
 
 header {
@@ -19,6 +21,48 @@ header {
   padding-left: auto;
   padding-right: auto;
   border-bottom: solid grey
+}
+
+footer {
+  position: absolute;
+  clear: both;
+  width: 100%;
+  bottom: 0px;
+  height: 50px;
+  background-color: grey;
+  border-top: 10px;
+  border-top-color: #4aaaa5;
+  border-style: solid;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 40px;
+  font-size: 10px;
+  display: block;
+}
+
+textarea, input{
+  padding: 10px; 
+  width: 570px;
+  border: 1px solid #D3D3D3;
+}
+
+textarea {
+  height: 200px;
+}
+
+button {
+    background-color: #4aaaa5;
+    border: none;
+    color: #ffffff;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+.nav {
+  float:right;
 }
 
 .navs {
@@ -50,34 +94,35 @@ header {
   float: left;
 }
 
-
 .main {
   margin-top: 35px;
   width: 960px;
+  height: 605px;
   margin-left: auto;
-  margin-right: auto
+  margin-right: auto;
+  margin-bottom: 110px;
 }
-
-
 
 .teal {
   color: #4aaaa5;
 }
 
-.sidebartext {
-  padding: 10px 10px 10px 10px;
+.sidebarh, .aboutmeh, .yourname {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+} 
+
+.sidebarh {
+  padding: 10px 10px 25px 10px;
   font-size: 18px;
-<<<<<<< HEAD
   border-bottom: 1px;
   border-bottom-color: grey;
   border-style: solid;
-=======
->>>>>>> 99154da2730bef9d92aefc7e6851b14c3ec631dd
 }
 
 .sidebar {
   background: #ffffff;
   width: 210px;
+  height: 150px;
   float: right;
   padding: 30px;
 }
@@ -86,12 +131,18 @@ header {
   padding: 30px;
   width: 590px;
   background: #ffffff;
-  float: left
+  float: left;
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> 99154da2730bef9d92aefc7e6851b14c3ec631dd
+.contactmediv{
+  padding: 30px;
+  width: 590px;
+  background: #ffffff;
+  float: left;
+  height: 545px;
+  margin-bottom: 10px;
+}
+
 .aboutmeh {
   font-size: 22px;
   border-bottom: 2px;
@@ -111,10 +162,19 @@ header {
   font-weight: bold;
 }
 
-
+.icon {
+  width: 30%;
+  height: auto;
+  margin-top: 25px;
+}
 
 #avatar {
   width: 200px;
   float: left;
   margin-right: 25px;
 }
+
+::-webkit-input-placeholder { color:#D3D3D3; }
+::-moz-placeholder { color:#D3D3D3; } /* firefox 19+ */
+:-ms-input-placeholder { color:#D3D3D3; } /* ie */
+input:-moz-placeholder { color:#D3D3D3; }
