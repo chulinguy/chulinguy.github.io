@@ -1,0 +1,259 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+  background-color: #F8E0B4;
+  font-family: Helvetica, Arial;
+}
+
+h3{
+  font-size: 1.2em;
+}
+
+a {
+  text-decoration:  none;
+  color: black
+  } 
+
+/* container-fluid */
+.main {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  padding: 0
+} 
+
+/* triangle nav bar  */
+#nav{
+  margin: 0;
+  position: absolute;
+  z-index: 10;
+  left: 46%;
+  width: 0; 
+  height: 0; 
+  border-left: 4vw solid transparent;
+  border-right: 4vw solid transparent;
+  border-top: 5vh solid #F8E0B4;
+}
+
+.dropdown {
+  padding: 0;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  bottom: 5vh;
+  right: 2vw;
+  position:relative
+}
+
+.dropdown-menu {
+  position: absolute;
+  width: 40vw;
+  padding: 0;
+  right: 30vw
+}
+.glyphicon-menu-hamburger {
+  padding: 0;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#burger-a {
+  padding: 0 2vw 0 2vw
+}
+
+#burger-a:hover{
+  background-color: transparent
+}
+
+/* individual rows */
+#row1, #row2, #row3, #row4 {
+  height: 40vh; 
+  z-index: -1;
+  margin: 0
+}
+
+.odd{
+  background-color: #FCC000;
+  height: 100%;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.even{
+  background-color: #D35217;
+  height: 100%;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding:0
+}
+
+#pattern{
+  background-image: url(../images/maple.jpg)
+}
+
+#title{
+  background-image: url(../images/warm-home.png)
+}
+
+#pattern, #title {
+  background-size: 100% 100%
+}
+
+#welcome-message {
+  text-align: left
+}
+
+#philosophy-message {
+  text-align: right
+}
+
+#row-about {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+}
+
+#about-me-right, #about-me-left {
+  -webkit-flex:1;
+  flex: 1;
+  text-align: left;
+  display: block;
+  padding: 5vh 5vw 5vh 5vw;
+  font-size: 1em;
+  float: none;
+  height: auto;
+}
+
+#contact-me-left, #contact-me-right {
+  padding: 10vh 5vw 10vh 5vw;
+  height: 90vh;
+  display: block;
+  text-align: center
+}
+#avatar, #bio-container{
+  width: 90%;
+  float: right
+}
+
+
+#email {
+  width: 8vw;
+  min-height: 60px;
+  min-width: 60px
+}
+
+#linkedin {
+  height: 10vh;
+  width: auto;
+}
+
+#github {
+  height: 9vh;
+  width: auto;
+}
+
+#portfolio-icon, #business-card-icon {
+  height: 12vh;
+  width: auto;
+}
+
+#avatar-icon {
+   height: 10vh;
+  width: auto;
+}
+
+.flex-wrap {
+   flex-wrap: wrap;
+   align-content: center;
+}
+
+ #social-h3 {
+  margin-top: 0;
+  margin-bottom: 0
+} 
+.div-images {
+  text-align: center;
+  width: 100%
+}
+
+
+#github-a, #linkedin-a {
+  display: inline-block
+}
+
+.need-background, .dropdown-menu {
+  background-color: rgba(255,255,255,  0.6) 
+}
+
+.white-text {
+  color: white
+}
+
+::-webkit-input-placeholder { color:#D3D3D3; }
+::-moz-placeholder { color:#D3D3D3; } /* firefox 19+ */
+:-ms-input-placeholder { color:#D3D3D3; } /* ie */
+input:-moz-placeholder { color:#D3D3D3; }
+
+@media (min-width: 992px)  {
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+
+@media (max-width: 480px){
+  .main {
+  margin-left:5vh;
+  margin-right:5vh;
+  }
+  .even, .odd {
+    width: 100%;
+    background-color: #FCC000;
+    color: black
+  }
+  
+  #title, #portfolio, #philosophy, #social-network, #about-me-right, #contact-me-right, #RPS{
+    background-color: #D35217;
+    color: white
+  }
+
+  #portfolio, #social-network {
+    color: white
+  }
+  /* about page */
+  #avatar, #bio-container{
+    float: none
+  }
+
+  #about-me-left {
+    height: auto;
+  }
+  
+
+  #row-about {
+    display:table
+  }
+
+  #avatar, #bio-container{
+  width: 100%;
+  }
+
+  #contact-me-left, #contact-me-right {
+    height: 45vh
+  }
+}
+
