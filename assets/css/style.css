@@ -48,15 +48,30 @@ a {
   width: 100%;
   bottom: 5vh;
   right: 2vw;
-  position:relative
+  position:relative;
+  text-align: center
 }
 
-.dropdown-menu {
+#main-dropdown-menu {
   position: absolute;
   width: 40vw;
   padding: 0;
-  right: 30vw
+  text-align: center;
+  left: 0;
+  right: 0;
+  transform: translate(-45%, 0)
 }
+
+#main-dropdown-menu >li>a {
+  padding: 2vh 0 2vh 0;
+  font-size: 1.2em
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+  background-color:rgb(114,164, 65);
+  color: white
+}
+
 .glyphicon-menu-hamburger {
   padding: 0;
   display: -webkit-flex;
@@ -196,7 +211,7 @@ a {
 }
 
 .need-background, .dropdown-menu {
-  background-color: rgba(255,255,255,  0.6) 
+  background-color: rgba(255,255,255,  0.7) 
 }
 
 .white-text {
@@ -211,7 +226,14 @@ input:-moz-placeholder { color:#D3D3D3; }
 @media (min-width: 992px)  {
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (max-width: 767px) {
+  #main-dropdown-menu {
+    background-color: rgba(255,255,255, 0.6);
+    box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    border-radius: 2px; 
+    border: 1px solid rgba(0, 0, 0, 0.15);
+  }
+  
 }
 
 
