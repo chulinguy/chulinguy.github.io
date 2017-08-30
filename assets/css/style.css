@@ -59,12 +59,12 @@ a {
   text-align: center;
   left: 0;
   right: 0;
-  transform: translate(-45%, 0)
+  transform: translate(-45%, 0);
 }
 
 #main-dropdown-menu >li>a {
   padding: 2vh 0 2vh 0;
-  font-size: 1.2em
+  font-size: 1.2em;
 }
 
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
@@ -277,5 +277,8 @@ input:-moz-placeholder { color:#D3D3D3; }
   #contact-me-left, #contact-me-right {
     height: 45vh
   }
-}
 
+  #main-dropdown-menu {
+    background-color: white
+  }
+}

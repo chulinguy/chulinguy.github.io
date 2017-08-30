@@ -1,14 +1,15 @@
-setTimeout(()=>{
-  $("#SkypeButton_Call_chulinguy_1").find('img').addClass('icon')
-  $('.icon').hover( function() {
-    $(this).attr('bounce', true);
-    bounce($(this));
-    }, function() { 
-      $(this).attr('bounce', false);
-      $(this).stop();
-    }
-  )
-}, 500);
+$('.dropdown').on('show.bs.dropdown', function (e) {
+  $(this).find('.dropdown-menu').first().stop(true, true).slideDown(400);
+});
+
+$('.dropdown').on('hide.bs.dropdown', function(e){
+    e.preventDefault();
+    $(this).find('.dropdown-menu').first().stop(true, true).slideUp(400, function(){
+    	$('.dropdown').removeClass('open');
+      	$('.dropdown').find('.dropdown-toggle').attr('aria-expanded','false');
+    });
+    
+  });
 
 $('[data-toggle="tooltip"]').tooltip(); 
 
