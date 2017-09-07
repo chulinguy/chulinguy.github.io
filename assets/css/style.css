@@ -10,12 +10,25 @@ body {
 
 h3{
   font-size: 1.2em;
+  text-align: center;
+   margin-top: 3vh;
+  margin-bottom: 3vh; 
 }
 
-a {
-  text-decoration:  none;
-  color: black
+p {
+  font-size: 0.9em;
+  margin-bottom: 2vh;
+}
+
+a, a > h3 {
+  text-decoration:  none !important;
+  color: black;
+  box-shadow: none !important;
   } 
+
+.hidden {
+  display: none;
+}
 
 /* container-fluid */
 .main {
@@ -218,6 +231,35 @@ a {
   color: white
 }
 
+.portfolio-h3 {
+  margin: 0;
+}
+
+/* .portfolio-h3:hover {
+    color: #00e5ee;
+    -webkit-transition: color 500ms linear;
+    -ms-transition: color 500ms linear;
+    transition: color 500ms linear;
+} */
+
+.panel {
+  color: black;
+  margin: 1vh 1vw 1vh 1vw;
+}
+
+.panel-heading {
+  padding: 1vh 1vw 1vh 1vw;
+}
+
+.panel-body {
+  padding: 1vh 1vw 1vh 1vw;;
+}
+
+.btn {
+  padding: 2vh 1vw 2vh 1vw;
+  margin: 0 1vw 0 1vw;
+}
+
 ::-webkit-input-placeholder { color:#D3D3D3; }
 ::-moz-placeholder { color:#D3D3D3; } /* firefox 19+ */
 :-ms-input-placeholder { color:#D3D3D3; } /* ie */
@@ -234,10 +276,10 @@ input:-moz-placeholder { color:#D3D3D3; }
     border: 1px solid rgba(0, 0, 0, 0.15);
   }
   
-}
+/* } */
 
 
-@media (max-width: 480px){
+/* @media (max-width: 480px){ */
   .main {
   margin-left:5vh;
   margin-right:5vh;
@@ -248,7 +290,7 @@ input:-moz-placeholder { color:#D3D3D3; }
     color: black
   }
   
-  #title, #portfolio, #philosophy, #social-network, #about-me-right, #contact-me-right, #RPS{
+  #title, #portfolio, #philosophy, #social-network, #about-me-right, #contact-me-right, #RPS, #motivate, #TODO2, #TODO4{
     background-color: #D35217;
     color: white
   }
