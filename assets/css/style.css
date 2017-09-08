@@ -9,7 +9,7 @@ body {
 }
 
 h3{
-  font-size: 1.2em;
+  font-size: 1.4em;
   text-align: center;
    margin-top: 3vh;
   margin-bottom: 3vh; 
@@ -118,6 +118,7 @@ a, a > h3 {
   padding: 0;
 }
 
+
 .even{
   background-color: #D35217;
   height: 100%;
@@ -126,7 +127,18 @@ a, a > h3 {
   align-items: center;
   justify-content: center;
   color: white;
-  padding:0
+  padding:0;
+}
+
+.odd-border {
+  border: 1vh solid #FCC000;
+}
+.even-border{
+  border: 1vh solid #D35217;
+}
+
+.border-radius {
+  border-radius: 4px
 }
 
 #pattern{
@@ -260,6 +272,26 @@ a, a > h3 {
   margin: 0 1vw 0 1vw;
 }
 
+.btn-div {
+  padding: 1vh;
+}
+
+.bg {
+  background-size: 100% 100%;
+}
+
+#routeMe{
+  background-image: url("../images/projRM.jpg");
+}
+
+#motivate{
+  background-image: url("../images/projMotivate.jpg");
+}
+
+#RPS{
+  background-image: url("../images/projRPS.jpg");
+}
+
 ::-webkit-input-placeholder { color:#D3D3D3; }
 ::-moz-placeholder { color:#D3D3D3; } /* firefox 19+ */
 :-ms-input-placeholder { color:#D3D3D3; } /* ie */
@@ -287,16 +319,30 @@ input:-moz-placeholder { color:#D3D3D3; }
   .even, .odd {
     width: 100%;
     background-color: #FCC000;
-    color: black
+    color: black;
+    border-color: #FCC000;
   }
   
-  #title, #portfolio, #philosophy, #social-network, #about-me-right, #contact-me-right, #RPS, #motivate, #TODO2, #TODO4{
+  .btn-div {
+    width: auto;  
+  }
+
+  #title, #portfolio, #philosophy, #social-network, #about-me-right, #contact-me-right, #routeMe, #JM, #TODO2, #TODO4, #RM-title, #JM-title{
     background-color: #D35217;
+    color: white;
+    border-color: #D35217;
+  }
+
+  #portfolio, #social-network{
     color: white
   }
 
-  #portfolio, #social-network {
-    color: white
+  #projJM {
+    color: white;  
+  }
+
+  #projRPS{
+    color: black
   }
   /* about page */
   #avatar, #bio-container{
