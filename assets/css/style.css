@@ -281,23 +281,23 @@ a, a > h3 {
 }
 
 #routeMe{
-  background-image: url("../images/projRM.jpg");
+  background-image: url("../images/projRM.JPG");
 }
 
 #motivate{
-  background-image: url("../images/projMotivate.jpg");
+  background-image: url("../images/projMotivate.JPG");
 }
 
 #RPS{
-  background-image: url("../images/projRPS.jpg");
+  background-image: url("../images/projRPS.JPG");
 }
 
 #JM{
-  background-image: url("../images/projJM.jpg");
+  background-image: url("../images/projJM.JPG");
 }
 
 #TFD{
-  background-image: url("../images/projTFD.jpg");
+  background-image: url("../images/projTFD.JPG");
 }
 
 ::-webkit-input-placeholder { color:#D3D3D3; }
