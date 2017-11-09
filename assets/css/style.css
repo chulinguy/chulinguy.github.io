@@ -292,6 +292,14 @@ a, a > h3 {
   background-image: url("../images/projRPS.jpg");
 }
 
+#JM{
+  background-image: url("../images/projJM.jpg");
+}
+
+#TFD{
+  background-image: url("../images/projTFD.jpg");
+}
+
 ::-webkit-input-placeholder { color:#D3D3D3; }
 ::-moz-placeholder { color:#D3D3D3; } /* firefox 19+ */
 :-ms-input-placeholder { color:#D3D3D3; } /* ie */
