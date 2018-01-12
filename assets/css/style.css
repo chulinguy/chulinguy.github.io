@@ -17,7 +17,7 @@ h3{
 
 p {
   font-size: 0.9em;
-  margin-bottom: 2vh;
+  margin-bottom: 1vh;
 }
 
 a, a > h3 {
@@ -25,6 +25,10 @@ a, a > h3 {
   color: black;
   box-shadow: none !important;
   } 
+
+.about-me-link {
+  color: white; 
+}
 
 .hidden {
   display: none;
