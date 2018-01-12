@@ -234,6 +234,9 @@ a, a > h3 {
   width: 100%
 }
 
+#resume {
+  background-color: rgb(114,164, 65);
+}
 
 #github-a, #linkedin-a {
   display: inline-block
