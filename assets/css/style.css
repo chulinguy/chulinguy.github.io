@@ -250,8 +250,8 @@ a, a > h3 {
   background-color: rgba(255,255,255,  0.7) 
 }
 
-.white-text {
-  color: white
+.even > div> div> a >h3 {
+  color: white;
 }
 
 .portfolio-h3 {
@@ -316,9 +316,6 @@ a, a > h3 {
 :-ms-input-placeholder { color:#D3D3D3; } /* ie */
 input:-moz-placeholder { color:#D3D3D3; }
 
-@media (min-width: 992px)  {
-}
-
 @media (max-width: 767px) {
   #main-dropdown-menu {
     background-color: rgba(255,255,255, 0.6);
@@ -328,9 +325,6 @@ input:-moz-placeholder { color:#D3D3D3; }
   }
   
 /* } */
-
-
-/* @media (max-width: 480px){ */
   .main {
   margin-left:5vh;
   margin-right:5vh;
@@ -360,7 +354,7 @@ input:-moz-placeholder { color:#D3D3D3; }
     color: white;  
   }
 
-  #projRPS{
+  #projTFD{
     color: black
   }
   /* about page */

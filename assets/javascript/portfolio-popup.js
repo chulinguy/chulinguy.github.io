@@ -1,6 +1,5 @@
-
 const descObj = {};
-descObj.projJM  = ['This web quiz game not only tests your knowledge in Javascript and computer sciences but also contains tons of funny jokes.', 'Technologies: Chance.js, Chart.js, ResponsiveVoice.js, Firebase, jQuery'];
+descObj.projJM  = ['This web quiz game not only tests your knowledge in Javascript and computer sciences but also contains tons of funny jokes.', 'Technologies: Chance.js, Chart.js, ResponsiveVoice.js, Firebase, jQuery, underscore.js'];
 descObj.projMotivate = ['This MERN app keeps track of your one goal (with calendar reminders) and rewards you for task completion with RPG elements.', 'Technologies: MongoDB, Express.js, React, React-router, Google Calendar API'];
 descObj.projRPS = ['This multi-language, two-player Rock-Paper-Scissor web game utilizes Firebase to store user\'s game choices/wins/losses, with a functional chat window', 'Technologies: JQuery, Firebase, underscore.js']
 descObj.projRM  = ['This web app creates a clear cost and time comparison between driving and public transit for a given trip.', 'Technologies: Google Maps API (directions/geocoding/public transit data), myGasFeed API & fueleconomy.gov API, jQuery']
