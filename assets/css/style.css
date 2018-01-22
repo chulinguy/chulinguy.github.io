@@ -258,6 +258,10 @@ a, a > h3 {
   margin: 0;
 }
 
+.github-link {
+  color: blue
+}
+
 /* .portfolio-h3:hover {
     color: #00e5ee;
     -webkit-transition: color 500ms linear;
